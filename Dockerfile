@@ -1,6 +1,6 @@
 # Docker image containing generic tools for development, based on Debian testing.
 
-FROM debian:testing-20191224
+FROM debian:testing-20200720
 
 # Basic build/development tools
 RUN apt-get update --quiet --yes && apt-get install --quiet --yes git vim wget curl
