@@ -1,6 +1,6 @@
 # Docker image containing generic tools for development, based on Debian testing.
 
-FROM debian:testing-20230612
+FROM debian:testing-20231030
 
 # Basic build/development tools
 RUN apt-get update --quiet --yes && apt-get install --quiet --yes \
