@@ -1,6 +1,6 @@
 # Docker image containing generic tools for development, based on Debian testing.
 
-FROM debian:testing-20260223
+FROM debian:testing-20261020
 
 # Remove invalid source list file, which also should not be needed
 RUN rm -f /etc/apt/sources.list.d/github_git-lfs.list
